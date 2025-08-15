@@ -1,0 +1,127 @@
+2025-08-14 14:10:30,941 - self_instruct - INFO - 加载种子指令: data/seed_instructions.json
+2025-08-14 14:10:30,941 - self_instruct - INFO - 初始种子指令数量: 10
+2025-08-14 14:10:30,941 - self_instruct - INFO - 开始第 1/5 轮迭代
+2025-08-14 14:10:30,941 - self_instruct - INFO - 生成新指令...
+2025-08-14 14:13:58,821 - self_instruct - INFO - 加载种子指令: data/seed_instructions.json
+2025-08-14 14:13:58,873 - self_instruct - INFO - 初始种子指令数量: 10
+2025-08-14 14:13:58,873 - self_instruct - INFO - 开始第 1/5 轮迭代
+2025-08-14 14:13:58,873 - self_instruct - INFO - 生成新指令...
+2025-08-14 14:13:59,043 - openai._base_client - INFO - Retrying request to /chat/completions in 0.492918 seconds
+2025-08-14 14:13:59,551 - openai._base_client - INFO - Retrying request to /chat/completions in 0.818365 seconds
+2025-08-14 14:14:05,383 - openai._base_client - INFO - Retrying request to /chat/completions in 0.394037 seconds
+2025-08-14 14:14:05,791 - openai._base_client - INFO - Retrying request to /chat/completions in 0.825703 seconds
+2025-08-14 14:14:11,629 - openai._base_client - INFO - Retrying request to /chat/completions in 0.479540 seconds
+2025-08-14 14:14:12,120 - openai._base_client - INFO - Retrying request to /chat/completions in 0.997404 seconds
+2025-08-14 14:15:53,981 - self_instruct - INFO - 加载种子指令: data/seed_instructions.json
+2025-08-14 14:15:54,022 - self_instruct - INFO - 初始种子指令数量: 10
+2025-08-14 14:15:54,022 - self_instruct - INFO - 开始第 1/5 轮迭代
+2025-08-14 14:15:54,022 - self_instruct - INFO - 生成新指令...
+2025-08-14 14:16:04,806 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:16:04,823 - self_instruct - INFO - 生成了 16 条新指令
+2025-08-14 14:16:04,823 - self_instruct - INFO - 为指令生成输入-输出对...
+2025-08-14 14:16:10,813 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:16:13,049 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:16:20,909 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:16:23,748 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:16:31,625 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:16:39,649 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:16:47,606 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:16:55,548 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:17:03,479 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:17:11,646 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:17:20,201 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:17:28,096 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:17:36,015 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:17:43,992 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:17:52,143 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:17:56,998 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:17:56,999 - self_instruct - INFO - 成功生成 14/16 条有效数据
+2025-08-14 14:17:57,000 - self_instruct - INFO - 保存迭代结果到: output/self_instruct_iter_0.json
+2025-08-14 14:17:57,000 - self_instruct - INFO - 当前数据池大小: 24 (新增 14 条)
+2025-08-14 14:17:57,001 - self_instruct - INFO - 开始第 2/5 轮迭代
+2025-08-14 14:17:57,001 - self_instruct - INFO - 生成新指令...
+2025-08-14 14:18:05,205 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:18:05,211 - self_instruct - INFO - 生成了 16 条新指令
+2025-08-14 14:18:05,211 - self_instruct - INFO - 为指令生成输入-输出对...
+2025-08-14 14:18:13,099 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:18:14,522 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:18:22,504 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:18:25,437 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:18:30,768 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:18:37,721 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:18:41,658 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:18:49,596 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:18:52,295 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:19:00,158 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:19:08,058 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:19:09,252 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:19:17,224 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:19:25,170 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:19:33,119 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:19:40,991 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:19:40,992 - self_instruct - INFO - 成功生成 12/16 条有效数据
+2025-08-14 14:19:40,993 - self_instruct - INFO - 保存迭代结果到: output/self_instruct_iter_1.json
+2025-08-14 14:19:40,993 - self_instruct - INFO - 当前数据池大小: 36 (新增 12 条)
+2025-08-14 14:19:40,993 - self_instruct - INFO - 开始第 3/5 轮迭代
+2025-08-14 14:19:40,993 - self_instruct - INFO - 生成新指令...
+2025-08-14 14:19:49,242 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:19:49,242 - self_instruct - INFO - 生成了 11 条新指令
+2025-08-14 14:19:49,242 - self_instruct - INFO - 为指令生成输入-输出对...
+2025-08-14 14:19:57,258 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:20:05,162 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:20:13,077 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:20:21,130 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:20:29,372 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:20:37,575 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:20:45,180 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:20:53,641 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:21:02,164 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:21:10,665 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:21:19,158 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:21:19,160 - self_instruct - INFO - 成功生成 8/11 条有效数据
+2025-08-14 14:21:19,163 - self_instruct - INFO - 保存迭代结果到: output/self_instruct_iter_2.json
+2025-08-14 14:21:19,163 - self_instruct - INFO - 当前数据池大小: 44 (新增 8 条)
+2025-08-14 14:21:19,163 - self_instruct - INFO - 开始第 4/5 轮迭代
+2025-08-14 14:21:19,163 - self_instruct - INFO - 生成新指令...
+2025-08-14 14:21:27,988 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:21:27,990 - self_instruct - INFO - 生成了 13 条新指令
+2025-08-14 14:21:27,990 - self_instruct - INFO - 为指令生成输入-输出对...
+2025-08-14 14:21:36,525 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:21:45,116 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:21:53,645 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:22:02,256 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:22:10,612 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:22:19,036 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:22:27,252 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:22:35,764 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:22:43,995 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:22:52,390 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:23:01,300 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:23:09,326 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:23:17,265 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:23:17,269 - self_instruct - INFO - 成功生成 11/13 条有效数据
+2025-08-14 14:23:17,271 - self_instruct - INFO - 保存迭代结果到: output/self_instruct_iter_3.json
+2025-08-14 14:23:17,272 - self_instruct - INFO - 当前数据池大小: 55 (新增 11 条)
+2025-08-14 14:23:17,272 - self_instruct - INFO - 开始第 5/5 轮迭代
+2025-08-14 14:23:17,272 - self_instruct - INFO - 生成新指令...
+2025-08-14 14:23:25,586 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:23:25,588 - self_instruct - INFO - 生成了 13 条新指令
+2025-08-14 14:23:25,588 - self_instruct - INFO - 为指令生成输入-输出对...
+2025-08-14 14:23:33,669 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:23:41,848 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:23:49,887 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:23:57,374 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:24:05,493 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:24:13,484 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:24:21,440 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:24:29,344 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:24:37,207 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:24:40,794 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:24:48,648 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:24:54,283 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:25:02,260 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-14 14:25:02,271 - self_instruct - INFO - 成功生成 12/13 条有效数据
+2025-08-14 14:25:02,276 - self_instruct - INFO - 保存迭代结果到: output/self_instruct_iter_4.json
+2025-08-14 14:25:02,277 - self_instruct - INFO - 当前数据池大小: 67 (新增 12 条)
+2025-08-14 14:25:02,280 - self_instruct - INFO - 生成完成！最终数据集大小: 67
+2025-08-14 14:25:02,280 - self_instruct - INFO - 最终数据保存至: output/self_instruct_final.json

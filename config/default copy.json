@@ -1,0 +1,13 @@
+{
+  "api_key": "ollama",
+  "base_url": "https://localhost:11434/v1",
+  "model": "qwen2:latest",
+  "temperature": 0.7,
+  "max_tokens": 256,
+  "retry_count": 3,
+  "retry_delay": 5,
+  "num_seed_examples": 3,
+  "min_instruction_length": 5,
+  "min_output_length": 5,
+  "blacklist_keywords": ["色情", "暴力", "仇恨言论", "歧视", "政治", "宗教"]
+}
