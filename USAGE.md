@@ -82,16 +82,3 @@ python main.py --config config/custom.json --seed_file data/my_seeds.json --outp
 1. **API 错误**：检查 API 密钥是否正确，以及是否有足够的额度
 2. **生成质量低**：尝试调整温度参数（temperature），或使用更高级的模型
 3. **生成速度慢**：减少每轮生成的指令数量，或使用多线程处理
-
-## 引用
-
-如果您在研究中使用了本框架，请引用原始 Self-Instruct 论文：
-
-```
-@article{wang2022self,
-  title={Self-Instruct: Aligning Language Models with Self-Generated Instructions},
-  author={Wang, Yizhong and Kordi, Yeganeh and Mishra, Swaroop and Liu, Alisa and Smith, Noah A and Khashabi, Daniel and Hajishirzi, Hannaneh},
-  journal={arXiv preprint arXiv:2212.10560},
-  year={2022}
-}
-```
